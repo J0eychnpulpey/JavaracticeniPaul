@@ -1,0 +1,30 @@
+
+
+package com.practicemodepaul;
+
+import java.util.Scanner;
+
+/**
+ * @author johnpaul
+ * if-else in Java.
+ */
+public class Practicemodepaul {
+
+    public static void main(String args[]) {
+
+        
+        
+    int yourAge = 15;   
+    // be honest to your age.
+    int ageAllowed = 18;
+    
+    if (yourAge > ageAllowed) {
+       System.out.println("you are allowed to create an account");
+       
+    } else {
+        System.out.println("you are not allowed to create an account until you turn 18");
+    }
+        
+      
+    }
+}
