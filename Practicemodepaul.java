@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author johnpaul
  */
-public class Practicemodepaul {
+public class ManokniPedro {
 
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);  // Create a Scanner object
