@@ -14,6 +14,9 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class GuessingGame {
+
+  private static int guess;
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
@@ -38,4 +41,4 @@ public class GuessingGame {
             System.out.println("You ran out of guesses. The number was " + secretNumber);
         }
     }
-}
+    }
