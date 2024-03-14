@@ -1,0 +1,41 @@
+
+  public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String playAgain;
+
+        do {
+            System.out.println("______________________________________________________");    
+            System.out.println("          Welcome to the cat guessing game!           ");
+            System.out.println("______________________________________________________");    
+
+            System.out.println("Meow Purr, Hiss, Growl, Chirp, Yowl, Chatter, Trill, Mew, Howl");    
+            System.out.println("Guess the sound of a cat by picking one sound above: ");
+            String guess = input.nextLine();
+            
+            String correctSound = Cat.sound();
+
+            if (guess.equalsIgnoreCase(correctSound)) {
+                System.out.println("You guessed right!");
+            } else {
+                System.out.println("You guessed wrong! The correct sound is " + correctSound);
+            }
+
+            System.out.println("Do you want to play again? (y/n)");
+            playAgain = input.nextLine();
+
+        } while (playAgain.equalsIgnoreCase("y"));
+    }
+}
+
+//-------------------------------------------- Cat.java -----------------------------------------//
+
+public class Cat {
+    public static String sound() {
+    String[] sounds = {"Meow", "Purr", "Hiss", "Growl", "Chirp", "Yowl", "Chatter", "Trill", "Mew", "Howl"};
+    Random random = new Random();
+    int index = random.nextInt(sounds.length);
+    return sounds[index];
+
+
+    }
+}
