@@ -1,0 +1,35 @@
+public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Child: mommy I would like to eat now!!!!");
+    System.out.println("Parent: What would you like to eat?");
+    System.out.println("Child: I would like to eat a whole pizza.");
+    System.out.println("inner dialogue: (But your Money is not enough to buy a whole pizza)");
+    
+
+    System.out.println("______________________________________________________");
+    System.out.println("               Choose your option                     ");
+    System.out.println("______________________________________________________");
+    System.out.println("Type 1 to buy one slice of pizza");        
+    System.out.println("Type 2 and say let's go buy another food");
+    System.out.println("______________________________________________________");
+    System.out.println("Parent: What would you like to do? type 1 or 2?:");
+    int choice = input.nextInt();
+
+    if (choice == 1) {
+        System.out.println("Parent: Okay, I will buy you one slice of pizza");
+        System.out.println("Child: Thank you");
+    } else if (choice == 2) {
+        for (int i = 0; i < 5; i++) {
+            
+            System.out.println("Child: argggggg come one Mom, I want pizza!! (yelling 5 times)");
+        }
+        if ( 5 >= 5) {
+            System.out.println("______________________________________________________");
+            System.out.println("Parent: Next time, I will buy you a whole pizza");
+                        
+        }
+    }
+        input.close();
+    }
+    }
