@@ -1,5 +1,13 @@
 
 //--------------------------------------main----------------------------------------------------
+    // These are the attributes of the Cat class 
+    // The Objects is my first cat and my second cat 
+    // Syntaxes are the name, age, and breed of the cat, like = to give value, and + for concatenation
+    // Variables are the name, age, and breed of the cat, myfirsCat, and mySecondCat to store data.
+    // public means they can be accessed from anywhere in this project.
+    // static means that the variable belongs to the class and not to any object.
+    // void means that the method does not have a return value.
+    // System.out.println is a method that prints the specified message to the console.
 
 public class Main {
     public static void main(String[] args) {
