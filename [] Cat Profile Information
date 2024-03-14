@@ -1,0 +1,30 @@
+
+//--------------------------------------main----------------------------------------------------
+
+public class Main {
+    public static void main(String[] args) {
+
+    Cat myfirsCat = new Cat();
+    myfirsCat.name = "Mittens";
+    myfirsCat.age = 3;
+    myfirsCat.breed = "Siamese";
+   
+    Cat mySecondCat = new Cat();
+    mySecondCat.name = "Ian";
+    mySecondCat.age = 4;
+    mySecondCat.breed = "Tabby";
+    
+    System.out.println("My first cat's name is " + myfirsCat.name + " and he is a " + myfirsCat.breed + " and he is " + myfirsCat.age + " years old.");
+
+    }
+}
+
+//--------------------------------Cat.java---------------------------------------------------------
+
+public class Cat {
+    
+    String name;
+    int age;
+    String breed;
+
+    }
