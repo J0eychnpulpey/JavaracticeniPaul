@@ -1,0 +1,28 @@
+//-----------------------Static----------------------------------
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        Cat.IandestroyedItems();
+    }
+}
+
+//------------------Static---------// Cat.java-------------------
+
+public class Cat {
+    
+   public static  int IandestroyedItems = 10; // static variable
+   
+   public static void IandestroyedItems() {
+       System.out.println("Ian has destroyed " + IandestroyedItems + " items");
+
+    }
+
+}
+
+
+
+
+
+
