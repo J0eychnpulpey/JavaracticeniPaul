@@ -21,6 +21,55 @@ public class Cat {
 
 }
 
+//---------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------
+
+
+//---------------------------Non Static---------------------------------------
+
+public class Main {
+    public static void main(String[] args) {
+
+        Dog myfirstdog = new Dog();
+        myfirstdog.name = "Fido";
+        // non static method
+        myfirstdog.bark();
+        myfirstdog.run();
+       
+   
+        System.out.println("My dog's name is " + myfirstdog.name + " and he is my first dog.");
+        System.out.println("He barks like this: " + myfirstdog.bark + "same as common dog in the world.");
+
+  
+    }
+}
+
+
+//-----------------------Non Static Dog.java-------------------------------------
+
+
+public class Dog {
+
+    // Common attributes of a dog
+    
+    public String name;
+    public String bark;
+    public String run;
+
+    public void bark() {
+        System.out.println("Woof! Woof!");
+    }
+    public void run() {
+        System.out.println("Running...");
+    }
+
+}
+
+
+
+
+
 
 
 
